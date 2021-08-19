@@ -1,0 +1,25 @@
+.center {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.clear {
+	clear: both;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}

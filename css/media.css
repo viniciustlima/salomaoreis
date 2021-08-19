@@ -1,0 +1,64 @@
+@media screen and (max-width: 1024px) {
+  
+  div.left, div.right {
+    float: none;
+  }
+
+  section.banner {
+    height: calc(616px *  2);
+    padding: 0;
+  }
+
+  div.w50 {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  header .whatsapp-button {
+    margin: 10px auto;
+    text-align: center;
+    float: none;
+    display: block;
+    max-width: 370px;
+  }
+
+  section.banner div.form-box {
+    right: 0;
+    width: 100%;
+  }
+
+  div.w50 img {
+    display: block;
+    margin: 0 auto;
+    float: none !important;
+    width: 100%;
+  }
+
+  footer p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  header div.logo img {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  div.w50 img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  section.banner {
+    height: calc(616px *  2.1);
+  }
+
+  img {
+    margin: 0;
+    padding: 0;
+    width: 100%
+  }
+}

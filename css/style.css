@@ -1,0 +1,529 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+*,
+*:hover,
+*:focus {
+	outline: 0;
+	border: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+header {
+	padding: 10px 0;
+}
+
+header .logo img {
+	width: calc(768px / 2);
+	height: calc(153px / 2);
+}
+
+header .whatsapp-button {
+	display: inline;
+	padding: 10px 15px;
+	border-radius: 10px;
+	margin: 10px 40px;
+	background: #0d9932;
+	transition: .35s;
+	border: 2px solid #0d9932;
+	box-shadow: 3px 3px 4px #0c7027;
+	cursor: pointer;
+}
+
+header .whatsapp-button a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 26px;
+	transition: .35s;
+}
+
+header .whatsapp-button:hover {
+	background: #fff;
+}
+
+header .whatsapp-button:hover a {
+	color: #0d9932;
+}
+
+section.banner {
+	width: 100%;
+	height: 616px;
+	position: relative;
+	padding: 10px;
+}
+
+section.banner .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1, 57, 98, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+section.banner .banner-single {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: url('../images/banner_bg.jpg') no-repeat fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+section.banner .text {
+	padding: 60px;
+	text-align: center;
+	z-index: 99;
+	position: relative;
+	margin-top: 50px;
+}
+
+section.banner .text p {
+	color: #fff;
+	margin: auto auto 60px auto;
+	font-size: 24px;
+	text-align: center;
+}
+
+section.banner .text ul {
+	list-style: none;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+section.banner .text ul li {
+	color: #ffff00;
+	font-size: 27px;
+	font-weight: bold;
+	text-shadow: 0 0 10px #444;
+}
+
+section.banner .text ul li .hifen {
+	color: #fff;
+}
+
+section.banner .text a {
+	padding: 10px 15px;
+	color: #fff;
+	box-shadow: 2px 2px 5px #444;
+	text-decoration: none;
+	border-radius: 20px;
+	background: #e3ba07;
+	transition: .35s;
+	border: 2px solid #fff;
+	box-shadow: 2px 2px 3px #aaaa;
+	display: inline-block;
+}
+
+section.banner .text a:hover {
+	background: #c1aa14;
+}
+
+section.banner .form-box {
+	z-index: 99;
+	background: rgba(227, 227, 227, 0.7);
+	width: 400px;
+	height: 590px;
+	position: relative;
+	right: 75px;
+}
+
+section.banner .form-box p {
+	color: #ffffff;
+	font-weight: 400;
+}
+
+section.banner .form-box h2 {
+	color: #333;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	padding: 25px 0;
+	background: rgba(225, 225, 225, .7);
+}
+
+section.banner .form-box form {
+	padding: 20px;
+}
+
+section.banner .form-box .input-box label {
+	color: #ffffff;
+	margin: 5px 0;
+}
+
+section.banner .form-box .input-box input,
+section.banner .form-box .input-box textarea {
+	border-radius: 4px;
+	border: 1px solid #073b4c;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+section.banner .form-box .input-box input[type=text],
+section.banner .form-box .input-box input[type=email],
+section.banner .form-box .input-box input[type=tel] {
+	width: 100%;
+	height: 37px;
+	padding-left: 10px;
+}
+
+section.banner .form-box .input-box {
+	margin: 15px 0;
+}
+
+section.banner .form-box .input-box textarea {
+	width: 100%;
+	height: 120px;
+	resize: none;
+	padding: 10px;
+}
+
+section.banner .form-box .input-box input[type=submit] {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	background: #126eb7;
+	border-radius: 20px;
+	font-size: 21px;
+	color: #ffffff;
+	display: inline;
+	cursor: pointer;
+	transition: .15s;
+}
+
+section.banner .form-box .input-box input[type=submit]:hover {
+	background: #0e5d9c;
+}
+
+section.quem-somos {
+	background: #f5f5f5;
+	padding: 50px 0 20px 0;
+	text-align: justify;
+}
+
+section.quem-somos .w50 {
+	padding: 20px;
+}
+
+section.quem-somos h2 {
+	font-style: italic;
+	margin: 15px 0;
+	color: #014F8D;
+	font-size: 32px;
+}
+
+section.quem-somos p {
+	font-size: 19px;
+	color: #414141;
+	margin-bottom: 25px;
+}
+
+section.quem-somos .button {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+section.quem-somos a {
+	font-size: 17px;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 25px;
+	background: #0d9932;
+	transition: .35s;
+	border: 2px solid #0d9932;
+	box-shadow: 3px 3px 4px #0c7027;
+}
+
+section.quem-somos a:hover {
+	background: #fff;
+	color: #0d9932;
+}
+
+section.quem-somos .w50 img {
+	width: 100%;
+	max-width: 500px;
+	border: 1px solid #444;
+	box-shadow: 3px 3px 4px #ccc;
+	border-radius: 10px;
+	float: right;
+}
+
+section.chamada {
+	padding: 40px 15px;
+	background: url('../images/img_03.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+section.chamada .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1, 57, 98, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+section.chamada p {
+	color: #fff;
+	z-index: 99;
+	position: relative;
+	font-size: 22px;
+	margin: 20px 0;
+	font-style: bold;
+}
+
+section.quemvoce-ama {
+	padding: 30px 20px;
+	background: #f6c94f;
+}
+
+section.quemvoce-ama h2 {
+	font-style: italic;
+	margin: 15px 0;
+	color: #014F8D;
+	font-size: 32px;
+}
+
+section.quemvoce-ama .w50 p {
+	font-size: 19px;
+	color: #414141;
+	margin-bottom: 20px;
+}
+
+section.quemvoce-ama .w50 img {
+	width: 100%;
+	max-width: 500px;
+	border: 1px solid #444;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	float: right;
+	margin-right: 40px;
+}
+
+section.quemvoce-ama .button {
+	margin: 0 auto 25px auto;
+	display: block;
+	text-align: center;
+}
+
+section.quemvoce-ama a {
+	font-size: 17px;
+	color: #fff;
+	padding: 10px 15px;
+	background: #0d9932;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 3px 3px 4px #0c7027;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 25px;
+	transition: .35s;
+}
+
+section.quemvoce-ama a:hover {
+	color: #0d9932;
+	background: #fff;
+}
+
+section.chamada2 {
+	padding: 40px 15px;
+	background: url('../images/img_01.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+section.chamada2 .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1, 37, 68, .9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+section.chamada2 p {
+	color: #fff;
+	z-index: 99;
+	position: relative;
+	font-size: 22px;
+	margin-bottom: 35px;
+	font-style: bold;
+	text-align: center;
+}
+
+section.chamada2 .button {
+	display: block;
+	text-align: center;
+}
+
+section.chamada2 a {
+	position: relative;
+	z-index: 99;
+	font-size: 17px;
+	color: #0c7027;
+	padding: 10px 15px;
+	background: #fff;
+	border-radius: 20px;
+	text-decoration: none;
+	box-shadow: 1px 1px 4px #0c7027;
+	text-transform: uppercase;
+	display: inline;
+	transition: .35s;
+}
+
+section.chamada2 a:hover {
+	background: #0c7027;
+	color: #fff;
+}
+
+section.clientes-aprovam {
+	background: #f5f5f5;
+	padding: 50px 0 20px 0;
+	text-align: justify;
+}
+
+section.clientes-aprovam .w50 {
+	padding: 0 20px;
+}
+
+section.clientes-aprovam h2 {
+	font-style: italic;
+	margin: 15px 0;
+	color: #014F8D;
+	font-size: 32px;
+}
+
+section.clientes-aprovam p {
+	font-size: 19px;
+	color: #414141;
+	margin-bottom: 25px;
+}
+
+section.clientes-aprovam .button {
+	margin: 0 auto 25px auto;
+	display: block;
+	text-align: center;
+}
+
+section.clientes-aprovam a {
+	font-size: 17px;
+	color: #fff;
+	padding: 10px 15px;
+	background: #0d9932;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 3px 3px 4px #0c7027;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 25px;
+	transition: .35s;
+}
+
+section.clientes-aprovam a:hover {
+	background: #fff;
+	color: #0d9932;
+}
+
+section.clientes-aprovam .w50 img {
+	width: 100%;
+	max-width: 500px;
+	border: 1px solid #444;
+	box-shadow: 3px 3px 4px #ccc;
+	border-radius: 10px;
+	float: right;
+}
+
+section.empresas {
+	padding: 90px 0;
+	text-align: center;
+}
+
+section.empresas h3 {
+	color: #393939;
+	margin: 30px 0;
+	font-size: 27px;
+	font-weight: 400;
+}
+
+section.empresas h2 {
+	color: #333399;
+	font-size: 32px;
+	text-transform: uppercase;	
+}
+
+section.empresas .w50 img {
+	width: 300px;
+	height: 300px;
+}
+
+section.empresas img.metlife {
+	width: 400px;
+}
+
+section.empresas .w100 {
+	margin-top: 60px;
+}
+
+section.empresas .button {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+section.empresas a {
+	font-size: 22px;
+	color: #fff;
+	padding: 10px 15px;
+	background: #0d9932;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 3px 3px 4px #0c7027;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 25px;
+	transition: .35s;
+}
+
+section.empresas a:hover {
+	color: #0d9932;
+	background: #fff;
+}
+
+footer {
+	background-color: #014982;
+	padding: 15px 0;
+}
+
+footer p {
+	margin: 15px 0;
+	font-size: 18px;
+	color: #fff;
+}
